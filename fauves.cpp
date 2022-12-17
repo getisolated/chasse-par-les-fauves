@@ -37,6 +37,8 @@ int main() {
     map[fauves[i].x][fauves[i].y] = 'F';
   }
 
+  //Boucle de jeu
+  while(true){
     // Afficher la map
     for (int y = 0; y < MAP_HEIGHT; y++) {
       for (int x = 0; x < MAP_WIDTH; x++) {
@@ -58,4 +60,26 @@ int main() {
       }
       std::cout << std::endl;
     }
+// Récupération du mouvement du joueur
+    std::cout << "Entrez votre prochain mouvement (haut [z], bas [s], gauche [q], droite [d]): ";
+    char move;
+    std::cin >> move;
+
+    // Mise à jour de la position du joueur
+    switch (move) {
+      case 'z':
+        player.y--;
+        break;
+      case 's':
+        player.y++;
+        break;
+      case 'q':
+        player.x--;
+        break;
+      case 'd':
+        player.x++;
+        break;
+    }
+  }
 }
+
