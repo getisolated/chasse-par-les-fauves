@@ -35,7 +35,7 @@ void Jeu::printMap(const Map& map, const Joueur& joueur, const std::vector<Fauve
         // Affiche chaque case de la ligne
         for (int x = 0; x < MAP_WIDTH; x++) {
 
-            // Affiche un bord infranchissable par le joueur
+            // Affiche un bord infranchissable si le joueur est sur les bords de la carte
             if (x == 0 || y == 0 || x == MAP_WIDTH - 1 || y == MAP_HEIGHT - 1) {
                 std::cout << '#';
                 continue;
@@ -47,7 +47,7 @@ void Jeu::printMap(const Map& map, const Joueur& joueur, const std::vector<Fauve
                 continue;
             }
 
-            // Affiche les fauves
+            // Affiche un fauve
             for (const auto& fauve : fauves) {
                 if (x == fauve.x && y == fauve.y) {
                     std::cout << 'F';
@@ -55,7 +55,7 @@ void Jeu::printMap(const Map& map, const Joueur& joueur, const std::vector<Fauve
                 }
             }
 
-            // Affiche les pièges
+            // Affiche un piège
             for (const auto& piege : pieges) {
                 if (x == piege.x && y == piege.y) {
                     std::cout << 'P';
@@ -63,7 +63,7 @@ void Jeu::printMap(const Map& map, const Joueur& joueur, const std::vector<Fauve
                 }
             }
 
-            // Sinon affiche un espace vide
+            // Affiche un espace vide
             std::cout << ' ';
 
             // Saut de ligne
@@ -71,5 +71,16 @@ void Jeu::printMap(const Map& map, const Joueur& joueur, const std::vector<Fauve
         }
         std::cout << std::endl;
     }
+}
+
+bool Jeu::fauvesRestants() const {
+    for(auto& fauve : fauves)
+        if(fauve.x != -1 && fauve.y != -1)
+            return true;
+    return false;
+}
+
+void Jeu::ajouterScore(int points) {
+    score += points;
 }
 

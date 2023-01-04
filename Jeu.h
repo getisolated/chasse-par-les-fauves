@@ -15,9 +15,12 @@ class Jeu
         Joueur joueur;
         std::vector<Fauve> fauves;
         std::vector<Piege> pieges;
+        int score;
         void initMap(Map& map);
         void printMap(const Map& map, const Joueur& joueur, const std::vector<Fauve>& fauves, const std::vector<Piege>& pieges);
         void chargerMap(const std::string& filename);
+        bool fauvesRestants() const;
+        void ajouterScore(int points);
 };
 
 #endif // JEU_H
