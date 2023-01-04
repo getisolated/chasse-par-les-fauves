@@ -38,24 +38,13 @@ int main()
     bool rejouer = true;
     while(rejouer) {
 
-        Joueur bouffon(MAP_WIDTH/2,MAP_HEIGHT/2);
+        std::string fichierPartie;
+        std::cout << "Entrez le nom du fichier du niveau (exemple Niveau1, Niveau2, Niveau3) : ";
+        std::cin >> fichierPartie;
 
-        std::vector<std::pair<int, int>> fauves;
-        fauves.push_back({2,2});
-        fauves.push_back({MAP_WIDTH-3,2});
-        fauves.push_back({2,MAP_HEIGHT-3});
-        fauves.push_back({MAP_WIDTH-3,MAP_HEIGHT-3});
-
-        std::vector<std::pair<int, int>> pieges;
-        pieges.push_back({MAP_WIDTH/4,MAP_HEIGHT/4});
-        pieges.push_back({3*MAP_WIDTH/4,MAP_HEIGHT/4});
-        pieges.push_back({MAP_WIDTH/4,3*MAP_HEIGHT/4});
-        pieges.push_back({3*MAP_WIDTH/4,3*MAP_HEIGHT/4});
-
-        Jeu partie(bouffon, fauves, pieges);
-
-        partie.score = 0;
-        partie.initMap(partie.map);
+        Jeu partie(fichierPartie + ".txt");
+        std::cout << partie.mapHeight << " " << partie.mapWidth << std::endl;
+        std::cout << partie.joueur.x << " " << partie.joueur.y << std::endl;
         partie.printMap(partie.map, partie.joueur, partie.fauves, partie.pieges);
 
         while(true) {
@@ -67,7 +56,7 @@ int main()
             input = getch();
 
             // Déplace le joueur
-            partie.joueur.deplace(input);
+            partie.joueur.deplace(input, partie.mapHeight, partie.mapWidth);
 
             for( auto& fauve : partie.fauves) {
                 fauve.deplace(partie.joueur, partie.pieges);
@@ -85,13 +74,6 @@ int main()
             }
 
             partie.ajouterScore(10);
-
-            // Augmene le score chaque fois que le joueur tue un fauve
-            for (auto& fauve : partie.fauves) {
-                    if (fauve.x == -1 && fauve.y == -1) {
-                        partie.ajouterScore(100);
-                    }
-            }
 
             //Verifie si le joueur a gagné
             if (!partie.fauvesRestants()) {

@@ -10,6 +10,7 @@
 class Jeu
 {
     public:
+        Jeu(const std::string& filename);
         Jeu(Joueur& j, const std::vector<std::pair<int, int>>& positions_fauves, const std::vector<std::pair<int, int>>& positions_pieges);
         Map map;
         Joueur joueur;
@@ -21,6 +22,9 @@ class Jeu
         void chargerMap(const std::string& filename);
         bool fauvesRestants() const;
         void ajouterScore(int points);
+        void initNiveau(const std::string& filename);
+        int mapHeight;
+        int mapWidth;
 };
 
 #endif // JEU_H
