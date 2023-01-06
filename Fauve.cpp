@@ -1,24 +1,35 @@
 #include "Fauve.h"
 
-Fauve::Fauve() : x(-1), y(-1) {}
+Fauve::Fauve() : d_x(-1), d_y(-1) {}
 
-Fauve::Fauve(int x, int y) : x(x), y(y) {}
+Fauve::Fauve(int x, int y) : d_x(x), d_y(y) {}
+
+int Fauve::x() const
+{
+    return d_x;
+}
+
+int Fauve::y() const
+{
+    return d_y;
+}
+
 
 void Fauve::deplace(const Joueur& joueur, const std::vector<Piege>& pieges) {
-      if (x < 0 || y < 0) return; // Ignore les fauves morts
+      if (d_x < 0 || d_y < 0) return; // Ignore les fauves morts
 
       // Ne déplace les fauves que tous les deux déplacements du joueur
 
-      if (x < joueur.x) x++;
-      if (x > joueur.x) x--;
-      if (y < joueur.y) y++;
-      if (y > joueur.y) y--;
+      if (d_x < joueur.x()) d_x++;
+      if (d_x > joueur.x()) d_x--;
+      if (d_y < joueur.y()) d_y++;
+      if (d_y > joueur.y()) d_y--;
 
       // Vérifie si le fauve tombe sur un piège
       for (const auto& piege : pieges) {
-        if (x == piege.x && y == piege.y) {
-          x = -1;
-          y = -1;
+        if (d_x == piege.x() && d_y == piege.y()) {
+          d_x = -1;
+          d_y = -1;
           break;
         }
       }

@@ -1,0 +1,369 @@
+# depslib dependency file v1.0
+1672928381 source:u:\l3\algo parallèles\debby\main.cpp
+	<iostream>
+	<map>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	"Jeu.h"
+	<conio.h>
+
+1672928080 source:u:\l3\algo parallèles\debby\joueur.cpp
+	"Joueur.h"
+
+1672928102 u:\l3\algo parallèles\debby\joueur.h
+
+1672928070 source:u:\l3\algo parallèles\debby\piege.cpp
+	"Piege.h"
+
+1672928113 u:\l3\algo parallèles\debby\piege.h
+
+1672928289 source:u:\l3\algo parallèles\debby\fauve.cpp
+	"Fauve.h"
+
+1672928322 u:\l3\algo parallèles\debby\fauve.h
+	"Joueur.h"
+	"Piege.h"
+	<vector>
+
+1672928055 source:u:\l3\algo parallèles\debby\jeu.cpp
+	"Jeu.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1672929229 u:\l3\algo parallèles\debby\jeu.h
+	<vector>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	<map>
+	"map.h"
+	<string>
+	<doctest.h>
+
+1672928107 u:\l3\algo parallèles\debby\map.h
+	<map>
+
+1672928747 u:\l3\algo parallèles\debby\doctest.h
+	<signal.h>
+	<ciso646>
+	<cstddef>
+	<ostream>
+	<istream>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<unordered_set>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<string>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1672928289 source:\\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\fauve.cpp
+	"Fauve.h"
+
+1672928322 \\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\fauve.h
+	"Joueur.h"
+	"Piege.h"
+	<vector>
+
+1672928102 \\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\joueur.h
+
+1672928113 \\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\piege.h
+
+1672928055 source:\\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\jeu.cpp
+	"Jeu.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1672929269 \\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\jeu.h
+	<vector>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	<map>
+	"map.h"
+	<string>
+
+1672928107 \\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\map.h
+	<map>
+
+1672928080 source:\\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\joueur.cpp
+	"Joueur.h"
+
+1672930712 source:\\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\main.cpp
+	<iostream>
+	<map>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	"Jeu.h"
+	<conio.h>
+
+1672928070 source:\\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\piege.cpp
+	"Piege.h"
+
+1672929835 \\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\doctest.h
+	<signal.h>
+	<iosfwd>
+	<cstddef>
+	<ostream>
+	<ciso646>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1672931499 source:\\uha.fr\users\e1900346\documents\l3\algo parallèles\debby\testjoueur.cpp
+	"doctest.h"
+	"Joueur.h"
+
+1672998594 source:u:\l3\algo parallèles\projet\chasse\fauve.cpp
+	"Fauve.h"
+
+1672998127 u:\l3\algo parallèles\projet\chasse\fauve.h
+	"Joueur.h"
+	"Piege.h"
+	<vector>
+
+1672998372 u:\l3\algo parallèles\projet\chasse\joueur.h
+
+1672998578 u:\l3\algo parallèles\projet\chasse\piege.h
+
+1672998633 source:u:\l3\algo parallèles\projet\chasse\jeu.cpp
+	"Jeu.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1673000931 u:\l3\algo parallèles\projet\chasse\jeu.h
+	<vector>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	<map>
+	"map.h"
+	<string>
+
+1672928107 u:\l3\algo parallèles\projet\chasse\map.h
+	<map>
+
+1672998372 source:u:\l3\algo parallèles\projet\chasse\joueur.cpp
+	"Joueur.h"
+
+1672998538 source:u:\l3\algo parallèles\projet\chasse\piege.cpp
+	"Piege.h"
+
+1672932978 source:u:\l3\algo parallèles\projet\test_chasse\testjoueur.cpp
+	"doctest.h"
+	"../Chasse/Joueur.h"
+
+1672929835 u:\l3\algo parallèles\projet\test_chasse\doctest.h
+	<signal.h>
+	<iosfwd>
+	<cstddef>
+	<ostream>
+	<ciso646>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1672933014 source:u:\l3\algo parallèles\projet\test_chasse\testmain.cpp
+	"doctest.h"
+
+1672998626 source:u:\l3\algo parallèles\projet\chasse\main.cpp
+	<iostream>
+	<map>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	"Jeu.h"
+	<conio.h>
+
+1673001674 source:c:\users\tierr\downloads\projet\projet\chasse\fauve.cpp
+	"Fauve.h"
+
+1673001675 c:\users\tierr\downloads\projet\projet\chasse\fauve.h
+	"Joueur.h"
+	"Piege.h"
+	<vector>
+
+1673001675 c:\users\tierr\downloads\projet\projet\chasse\joueur.h
+
+1673001675 c:\users\tierr\downloads\projet\projet\chasse\piege.h
+
+1673007101 source:c:\users\tierr\downloads\projet\projet\chasse\jeu.cpp
+	"Jeu.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1673007039 c:\users\tierr\downloads\projet\projet\chasse\jeu.h
+	<vector>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	<map>
+	"map.h"
+	<string>
+
+1673001675 c:\users\tierr\downloads\projet\projet\chasse\map.h
+	<map>
+
+1673001675 source:c:\users\tierr\downloads\projet\projet\chasse\joueur.cpp
+	"Joueur.h"
+
+1673008014 source:c:\users\tierr\downloads\projet\projet\chasse\main.cpp
+	<iostream>
+	<map>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	"Jeu.h"
+	<conio.h>
+
+1673001675 source:c:\users\tierr\downloads\projet\projet\chasse\piege.cpp
+	"Piege.h"
+
+1673008888 source:c:\users\e1900346\downloads\chasse\fauve.cpp
+	"Fauve.h"
+
+1673008888 c:\users\e1900346\downloads\chasse\fauve.h
+	"Joueur.h"
+	"Piege.h"
+	<vector>
+
+1673008888 c:\users\e1900346\downloads\chasse\joueur.h
+
+1673008888 c:\users\e1900346\downloads\chasse\piege.h
+
+1673009469 source:c:\users\e1900346\downloads\chasse\jeu.cpp
+	"Jeu.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1673009427 c:\users\e1900346\downloads\chasse\jeu.h
+	<vector>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	<map>
+	"map.h"
+	<string>
+
+1673008888 c:\users\e1900346\downloads\chasse\map.h
+	<map>
+
+1673008888 source:c:\users\e1900346\downloads\chasse\joueur.cpp
+	"Joueur.h"
+
+1673009552 source:c:\users\e1900346\downloads\chasse\main.cpp
+	<iostream>
+	<map>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	"Jeu.h"
+	<conio.h>
+
+1673008888 source:c:\users\e1900346\downloads\chasse\piege.cpp
+	"Piege.h"
+

@@ -1,0 +1,211 @@
+# depslib dependency file v1.0
+1672998594 source:u:\l3\algo parallèles\projet\chasse\fauve.cpp
+	"Fauve.h"
+
+1672998127 u:\l3\algo parallèles\projet\chasse\fauve.h
+	"Joueur.h"
+	"Piege.h"
+	<vector>
+
+1672998372 u:\l3\algo parallèles\projet\chasse\joueur.h
+
+1672998578 u:\l3\algo parallèles\projet\chasse\piege.h
+
+1672998633 source:u:\l3\algo parallèles\projet\chasse\jeu.cpp
+	"Jeu.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1673000931 u:\l3\algo parallèles\projet\chasse\jeu.h
+	<vector>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	<map>
+	"map.h"
+	<string>
+
+1672928107 u:\l3\algo parallèles\projet\chasse\map.h
+	<map>
+
+1672998372 source:u:\l3\algo parallèles\projet\chasse\joueur.cpp
+	"Joueur.h"
+
+1672998538 source:u:\l3\algo parallèles\projet\chasse\piege.cpp
+	"Piege.h"
+
+1673000062 source:u:\l3\algo parallèles\projet\chasse\testfauve.cpp
+	"doctest.h"
+	"../Chasse/Fauve.h"
+	<iostream>
+	<vector>
+
+1672929835 u:\l3\algo parallèles\projet\chasse\doctest.h
+	<signal.h>
+	<iosfwd>
+	<cstddef>
+	<ostream>
+	<ciso646>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1673000280 source:u:\l3\algo parallèles\projet\chasse\testjoueur.cpp
+	"doctest.h"
+	"../Chasse/Joueur.h"
+	"../Chasse/Fauve.h"
+
+1672933035 source:u:\l3\algo parallèles\projet\chasse\testmain.cpp
+	"doctest.h"
+
+1673000808 source:u:\l3\algo parallèles\projet\chasse\testjeu.cpp
+	"doctest.h"
+	"../Chasse/Jeu.h"
+	<iostream>
+	<vector>
+
+1673001287 source:u:\l3\algo parallèles\projet\chasse\testpiege.cpp
+	"doctest.h"
+	"../Chasse/Piege.h"
+	<iostream>
+	<vector>
+
+1673001674 source:c:\users\tierr\downloads\projet\projet\chasse\fauve.cpp
+	"Fauve.h"
+
+1673001675 c:\users\tierr\downloads\projet\projet\chasse\fauve.h
+	"Joueur.h"
+	"Piege.h"
+	<vector>
+
+1673001675 c:\users\tierr\downloads\projet\projet\chasse\joueur.h
+
+1673001675 c:\users\tierr\downloads\projet\projet\chasse\piege.h
+
+1673005680 source:c:\users\tierr\downloads\projet\projet\chasse\jeu.cpp
+	"Jeu.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1673005318 c:\users\tierr\downloads\projet\projet\chasse\jeu.h
+	<vector>
+	"Joueur.h"
+	"Fauve.h"
+	"Piege.h"
+	<map>
+	"map.h"
+	<string>
+
+1673001675 c:\users\tierr\downloads\projet\projet\chasse\map.h
+	<map>
+
+1673001675 source:c:\users\tierr\downloads\projet\projet\chasse\joueur.cpp
+	"Joueur.h"
+
+1673001675 source:c:\users\tierr\downloads\projet\projet\chasse\piege.cpp
+	"Piege.h"
+
+1673001675 source:c:\users\tierr\downloads\projet\projet\chasse\testfauve.cpp
+	"doctest.h"
+	"../Chasse/Fauve.h"
+	<iostream>
+	<vector>
+
+1673001674 c:\users\tierr\downloads\projet\projet\chasse\doctest.h
+	<signal.h>
+	<iosfwd>
+	<cstddef>
+	<ostream>
+	<ciso646>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1673005501 source:c:\users\tierr\downloads\projet\projet\chasse\testjeu.cpp
+	"doctest.h"
+	"../Chasse/Jeu.h"
+	<iostream>
+	<vector>
+
+1673001675 source:c:\users\tierr\downloads\projet\projet\chasse\testjoueur.cpp
+	"doctest.h"
+	"../Chasse/Joueur.h"
+	"../Chasse/Fauve.h"
+
+1673001675 source:c:\users\tierr\downloads\projet\projet\chasse\testmain.cpp
+	"doctest.h"
+
+1673001675 source:c:\users\tierr\downloads\projet\projet\chasse\testpiege.cpp
+	"doctest.h"
+	"../Chasse/Piege.h"
+	<iostream>
+	<vector>
+
